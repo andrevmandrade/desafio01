@@ -43,7 +43,7 @@ module "eks" {
     default = {
       min_size    = 2
       max_size    = 2
-      deired_size = 2
+      desired_size = 2
 
       instance_types = var.aws_eks_managed_node_groups_instance_types
 
